@@ -1,0 +1,12 @@
+.DS_Store
+build/
+external/
+sdk/
+*.o
+*.elf
+*.hex
+*.bin
+*.dmp
+*.list
+*.map
+.dep/
