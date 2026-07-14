@@ -36,7 +36,7 @@ class ModFx {
       return k_unit_err_memory;
     }
 
-    allocated_buffer_ = static_cast<float *>(
+    allocated_buffer_ = reinterpret_cast<float *>(
         desc->hooks.sdram_alloc(glitchy::GlitchCore::kBufferFloats *
                                 sizeof(float)));
     if (!allocated_buffer_) {
