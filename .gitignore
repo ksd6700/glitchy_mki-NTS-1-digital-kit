@@ -2,6 +2,7 @@
 build/
 external/
 sdk/
+work/
 *.o
 *.elf
 *.hex
